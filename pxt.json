@@ -1,0 +1,31 @@
+{
+    "name": "test-ps2-controller",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "ps2-controller": "github:gbraad/pxt-ps2-controller#bda622f8a4dd444648fe25d68c7c2192b122715d",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "custom.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v2.0.17",
+        "tag": "v2.0.17",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/f2fa2d74d5c9b81c3e5df4974bb6fe3f9900c901",
+        "target": "7.0.61",
+        "pxt": "5.15.19",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
